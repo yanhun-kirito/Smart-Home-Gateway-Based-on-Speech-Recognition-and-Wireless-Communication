@@ -1,0 +1,22 @@
+# Keil build output
+/DT.control/MDK-ARM/AAA/
+/FAN_control/MDK-ARM/FAN_control/
+/LED_control/MDK-ARM/LED_control/
+/LOCK_control/MDK-ARM/LOCK_control/
+/OLED_SCREEN/MDK-ARM/OLED_SCREEN/
+**/MDK-ARM/F103/
+**/MDK-ARM/*.lst
+**/MDK-ARM/DebugConfig/
+**/MDK-ARM/build.log
+
+# Local IDE settings
+*.uvguix.*
+*.uvoptx
+**/.vscode/
+/蓝牙串口模块资料和STM32驱动代码/**/.mxproject
+
+# Bundled serial tools and duplicate HAL example archive
+/蓝牙串口模块资料和STM32驱动代码/*.exe
+/蓝牙串口模块资料和STM32驱动代码/*.apk
+/蓝牙串口模块资料和STM32驱动代码/*.ini
+/蓝牙串口模块资料和STM32驱动代码/6. STM32F103 JDY-31蓝牙通讯实验(HAL库).rar
